@@ -27,7 +27,6 @@ def player_input_check():
 # makes computer choice
 # compare and print result. Calculate and return scores. 
 def who_won(p_choice, p_score, c_score):
-    print("\n") #white space for formatting
     print("Your choice: ", p_choice.title()) #print out input
     computer_choice = random.choice(choices)
     print("Computer's choice: ", computer_choice.title())

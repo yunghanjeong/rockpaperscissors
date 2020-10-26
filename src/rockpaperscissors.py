@@ -29,7 +29,6 @@ class game:
     # Input: player choice from player_input_check    
     # Output: player score and computer score
     def who_won(self, p_choice):
-        print("\n") #white space for formatting
         print("Your choice: ", p_choice.title()) #print out input
         computer_choice = random.choice(self.choices)
         print("Computer's choice: ", computer_choice.title())
@@ -58,6 +57,7 @@ class game:
     
     def play_again(self):
         again = input("Play Again? (Y/N) ").lower()
+        print("\n") #white space for formatting
         while again not in (self.yes + self.no): #while input not valid
             print("That is not a valid input!") #yell at user
             again = input("Play Again? (Y/N) ").lower()

@@ -1,15 +1,24 @@
 # Rock Paper Scissors Code Along
 
 ## Overview
-This project is for a python code along for a Medium publication. The purpose is to teach basic python coding with simple user interactions and refactoring for object oriented programming for python. Please refer to the jupyter notebook for guided tutorial.
+This project is for a python code along for a Medium publication. The purpose is to teach basic python coding with simple user interactions and refactoring for object oriented programming for python.
+
+Please feel free to download or fork this repo to use the provide jupyter notebook code-alongs. 
+
+## Medium Article
+[The Article]()
 
 ## Repository Structure
     .
     ├── examples                                # example code for medium
     ├── src                                     # OOP version of the game
     ├── rock_paper_scissors_code_along.ipynb    # code along/tutorial notebook
-    ├── LICENSE.txt                             # MIT License of this repo
+    ├── rock_paper_scissors_game.py             # OOP version implementation
+    ├── LICENSE.txt                             
     └── README.md
+
+## Author
+Yung Han Jeong
 
 ## Gists
 

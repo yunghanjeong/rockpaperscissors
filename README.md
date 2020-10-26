@@ -1,4 +1,5 @@
 # Rock Paper Scissors Code Along
+In this code along, we will build a game or rock, paper, scissors. This is intended for novice programmers who should have finished basic tutorials on python and coding. However, I provided some walk through and solutions for anyone to follow this code along. It is recommended that the users have basic understanding of data types, loops, boolean statements, and function building. If you are not familiar with these topics, it is recommeded to complete the free lesson available on [kaggle.com](https://www.kaggle.com/learn/python).
 
 ## Overview
 This project is for a python code along for a Medium publication. The purpose is to teach basic python coding with simple user interactions and refactoring for object oriented programming for python.

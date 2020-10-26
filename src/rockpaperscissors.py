@@ -28,7 +28,9 @@ class game:
     # This function receives player choice, selects random choice and scores the result
     # Input: player choice from player_input_check    
     # Output: player score and computer score
-    def who_won(self, p_choice):
+    def who_won(self):
+        p_choice = self.player_input_check()
+        
         print("Your choice: ", p_choice.title()) #print out input
         computer_choice = random.choice(self.choices)
         print("Computer's choice: ", computer_choice.title())

@@ -26,7 +26,8 @@ def player_input_check():
 # receives player input and scores
 # makes computer choice
 # compare and print result. Calculate and return scores. 
-def who_won(p_choice, p_score, c_score):
+def who_won(p_score, c_score):
+    p_choice = player_input_check() #get player input
     print("Your choice: ", p_choice.title()) #print out input
     computer_choice = random.choice(choices)
     print("Computer's choice: ", computer_choice.title())
@@ -55,13 +56,8 @@ def who_won(p_choice, p_score, c_score):
     return p_score, c_score
     
 while play_again in play_again_yes: #if the choice is a yes or y
-    #call player's choice
-    player_choice = player_input_check()
-    
-    #get scores
-    player_score, computer_score = who_won(player_choice, 
-                                           player_score, computer_score)
-    
+    #run the game and get scores
+    player_score, computer_score = who_won(player_score, computer_score)
     #print result
     print("\n") #white space for formatting
     print(f"Current Score is Player: {player_score} Computer: {computer_score}")
